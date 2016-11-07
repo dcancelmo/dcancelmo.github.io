@@ -1,0 +1,81 @@
+html {
+    background-color: #DCD0c0;
+}
+
+/*Paper#F4F4F4*/
+h1 {
+    font-size: : 2em;
+    font-family: Georgia;
+    color:darkslategray;
+    display: grid;
+    text-align: center;
+}
+h2 {
+    color: saddlebrown;
+    font-size: 1.5em;
+    font-weight: bold;
+    display:inline-block;
+    text-align: center;
+    width: calc(100% / 6);  
+    vertical-align: top;   
+    margin:2%;    
+    padding: 5px;
+}
+#NavBar {
+    width:100%;
+    text-align:justify;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    font-family: Tahoma;
+    color: #373737;
+}
+h3 {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 100;
+    color: #373737;
+}
+p {
+    color: #373737;
+}
+a {
+    text-decoration: none;
+    color: saddlebrown;
+}
+#line {
+    background-color: #C0B283;
+    height: 10px;
+}
+span.hidden {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+#contacts {
+    width:100%;
+    display: inline;
+}
+
+#resume {
+    text-decoration: none;
+    color: #373737;
+    text-align: center;
+    font-size: 2em;
+}
+#github {
+    text-align: center;
+    margin:2%;    
+    padding: 5px;
+    align-self: center;
+}
+#linkedin {
+    text-align: center;
+    margin:2%;    
+    padding: 5px;
+    background-size: contain;
+    align-self: center;
+}
+#linksImg {
+    width:100%;
+}
