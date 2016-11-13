@@ -1,5 +1,7 @@
 html {
     background-color: #DCD0c0;
+    /*Prevents scroll bar from repositining content*/
+	overflow-y: scroll;
 }
 
 /*Paper#F4F4F4*/
