@@ -17,12 +17,17 @@ body > #container {
 	min-height: 100%;
 }
 
+.center {
+	margin-left: auto;
+    margin-right: auto;
+    width: 22em
+}
+
 /*Paper#F4F4F4*/
 h1 {
     font-size: : 2em;
     font-family: Georgia;
     color:darkslategray;
-    display: grid;
     text-align: center;
 }
 h2 {
@@ -49,6 +54,12 @@ li{
 h3 {
     text-align: center;
     font-size: 1.25em;
+    font-weight: 100;
+    color: #373737;
+}
+h4 {
+    text-align: left;
+    font-size: 1.04em;
     font-weight: 100;
     color: #373737;
 }
