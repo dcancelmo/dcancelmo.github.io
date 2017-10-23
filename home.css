@@ -20,13 +20,13 @@ body > #container {
 .center {
 	margin-left: auto;
     margin-right: auto;
-    width: 35em
+    width: 30em
 }
 
 /*Paper#F4F4F4*/
 h1 {
-    font-size: : 2em;
-    font-family: Georgia;
+    font-size: 2em;
+    font-family: Georgia, serif;
     color:darkslategray;
     text-align: center;
 }
