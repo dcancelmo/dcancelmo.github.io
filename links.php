@@ -25,7 +25,7 @@
 						</a>
 					</p>
 					<p>
-						<a id = "referenceProf" target = "_blank" href = "contact.html">
+						<a id = "referenceProf" target = "_blank" href = "contact.php">
 							<center>Professional references' contact info<br>available upon request</center>
 						</a>
 					</p>
