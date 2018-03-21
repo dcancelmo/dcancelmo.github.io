@@ -33,9 +33,13 @@ section {
 	padding-bottom: 3em;
 }
 
-.center {
+.center, .center-links {
 	margin: auto;
-	width: 30em
+	width: 30em;
+}
+.center-links {
+	text-align: center;
+	padding: 0.75em;
 }
 
 /*Paper#F4F4F4*/

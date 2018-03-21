@@ -4,4 +4,3 @@ Work in progress personal site built using HTML and CSS to teach myself the fund
 
 TODO:
 Finish fixing sites semantics and html/css validitiy
--Links.html needs a heavy overhaul
