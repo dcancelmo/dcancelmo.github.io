@@ -1,6 +1,6 @@
 html {
-    background-color: #DCD0c0;
-    /*Prevents scroll bar from repositining content*/
+	background-color: #DCD0c0;
+	/*Prevents scroll bar from repositining content*/
 	overflow-y: scroll;
 }
 
@@ -19,119 +19,130 @@ body > #container {
 
 .center {
 	margin-left: auto;
-    margin-right: auto;
-    width: 30em
+	margin-right: auto;
+	width: 30em
 }
 
 /*Paper#F4F4F4*/
 h1 {
-    font-size: 2em;
-    font-family: Georgia, serif;
-    color:darkslategray;
-    text-align: center;
+	font-size: 2em;
+	font-family: Georgia, serif;
+	color:darkslategray;
+	text-align: center;
 }
+
 h2 {
-    color: saddlebrown;
-    font-size: 1.5em;
-    font-weight: bold;
-    display:inline-block;
-    text-align: center;
-    width: calc(100% / 6);  
-    vertical-align: top;   
-    margin:2%;    
-    padding: 5px;
+	color: saddlebrown;
+	font-size: 1.5em;
+	font-weight: bold;
+	display:inline-block;
+	text-align: center;
+	width: calc(100% / 6);  
+	vertical-align: top;   
+	margin:2%;    
+	padding: 5px;
 }
+
 nav {
-    width:100%;
-    text-align:justify;
-    display: flex;
-    justify-content: space-between;
+	width:100%;
+	text-align:justify;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 10px solid #C0B283;
 }
+
 li{
-    color: #373737;
-    font-size: 1em;
+	color: #373737;
+	font-size: 1em;
 }
+
 #completedCourses {
-    display: inline-flex;
+	display: inline-flex;
 }
+
 h3 {
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: 100;
-    color: #373737;
+	text-align: center;
+	font-size: 1.25em;
+	font-weight: 100;
+	color: #373737;
 }
+
 h4 {
-    text-align: left;
-    font-size: 1.04em;
-    font-weight: 100;
-    color: #373737;
+	text-align: left;
+	font-size: 1.04em;
+	font-weight: 100;
+	color: #373737;
 }
+
 p {
-    color: #373737;
-    font-size: 1em;
+	color: #373737;
+	font-size: 1em;
 }
+
 a {
-    text-decoration: none;
-    color: saddlebrown;
+	text-decoration: none;
+	color: saddlebrown;
 }
-#line {
-    background-color: #C0B283;
-    height: 10px;
-}
-#footLine {
-	background-color: #F4F4F4;
-    height: 1px;
-}
+
 footer {
 	clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	margin-top: -3em;
 }
+
 span.hidden {
-    unicode-bidi: bidi-override;
-    direction: rtl;
+	unicode-bidi: bidi-override;
+	direction: rtl;
 }
+
 #contacts {
-    width:100%;
-    display: inline;
+	width:100%;
+	display: inline;
 }
 
 #resume {
-    text-decoration: none;
-    color: #373737;
-    text-align: center;
-    font-size: 2em;
+	text-decoration: none;
+	color: #373737;
+	text-align: center;
+	font-size: 2em;
 }
+
 #reference {
-    text-decoration: none;
-    color: #373737;
-    text-align: center;
-    font-size: 2em;
+	text-decoration: none;
+	color: #373737;
+	text-align: center;
+	font-size: 2em;
 }
+
 #referenceProf {
-    color: #373737;
-    text-align: center;
-    font-size: 1.5em;
-    text-decoration: none;
+	color: #373737;
+	text-align: center;
+	font-size: 1.5em;
+	text-decoration: none;
 }
+
 #github {
-    text-align: center;
-    margin:2%;    
-    padding: 5px;
-    align-self: center;
+	text-align: center;
+	margin:2%;    
+	padding: 5px;
+	align-self: center;
 }
+
 #linkedin {
-    text-align: center;
-    margin:2%;    
-    padding: 5px;
-    background-size: contain;
-    align-self: center;
+	text-align: center;
+	margin:2%;    
+	padding: 5px;
+	background-size: contain;
+	align-self: center;
 }
+
 #linksImg {
-    width:100%;
+	width:100%;
 }
+
 #footer {
-    text-align: center;
+	text-align: center;
+	border-top: 1px #F4F4F4 solid;
 }
