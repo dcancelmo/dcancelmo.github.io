@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu+Condensed" rel="stylesheet">
+		<!-- Own CSS -->
 		<link type="text/css" rel="stylesheet" href="style.css">
 		<title>Dan Cancelmo</title>
 		<meta charset="utf-8"/>
@@ -8,33 +13,26 @@
 		<meta name="description" content="Daniel Cancelmo personal webpage. A simple site made using self-taught HTML and CSS. I am a Computer Science major a the University of Rochester in Rochester, NY."/>
 	</head>
 	<body>
-		<div id="container">
-			<section>
-				<h1>Daniel J. Cancelmo</h1>
-				<nav>
-					<ul>
-						<li><a href="index.html" id="is-current">Home</a></li>
-						<li><a href="aboutMe.html">About Me</a></li>
-						<li><a href="links.html">Links</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-
-				<h2>I am a rising senior at the University of Rochester studying Computer Science with a minor in History.</h2>
-				<h2>I am currently seeking a full-time job post graduation in May of 2019.</h2>
-				<ul class="center">
-					<li>Proficiencies: Java, C, Android Development, SQL, Git, JetBrains Developer Tools</li>
-					<li>Experience with: Kotlin, Unix, Database systems, Python, Web programming, PHP, Scrum, Jira</li>
-					<li>Currently learning: Javascript, node.js, jQuery</li>
-				</ul>
+		<nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="index.html" id="is-current">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="aboutMe.html">About Me</a></li>
+				<li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+				<li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
+				<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="container">
+			<header><h1>Daniel J. Cancelmo</h1></header>
+			<h2>I am a rising senior at the University of Rochester studying Computer Science with a minor in History.</h2>
+			<h2>I am currently seeking a full-time job following graduation in May of 2019.</h2>
+			<figure>
 				<img src = "images/self_pic.jpg" alt="Picture of Dan" id="self-pic">
-				<div id="push"></div>
-			</section>
+			</figure>
 		</div>
-		
-		<footer>
-			<p>&copy; 2018 Daniel Cancelmo | Hosted on GitHub</p>
-		</footer>
-		
+
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
