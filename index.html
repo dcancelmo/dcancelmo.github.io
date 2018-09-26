@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
-		<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu+Condensed" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
 		<!-- Own CSS -->
-		<link type="text/css" rel="stylesheet" href="style.css">
+		<link type="text/css" rel="stylesheet" href="css/styles.css">
+		<link type="text/css" rel="stylesheet" href="css/nav.css">
 		<title>Dan Cancelmo</title>
 		<meta charset="utf-8"/>
 		<meta name="author" content="Daniel Cancelmo"/>
 		<meta name="description" content="Daniel Cancelmo personal webpage. A simple site made using self-taught HTML and CSS. I am a Computer Science major a the University of Rochester in Rochester, NY."/>
 	</head>
 	<body>
+		<nav>
+			<ul>
+				<li id="is-current"><a href="index.html">Home</a></li>
+				<li><a href="about_me.html">About Me</a></li>
+				<li><a href="skills.html">Skills</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="links.html">Links</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
 		<div id="container">
-			<nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-info">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link" href="index.html" id="is-current">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="aboutMe.html">About Me</a></li>
-					<li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
-					<li class="nav-item"><a class="nav-link" href="links.html">Links</a></li>
-					<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-			<header><h1>Daniel J. Cancelmo</h1></header>
-			<h2>I am a rising senior at the University of Rochester studying Computer Science with a minor in History.</h2>
-			<h2>I am currently seeking a full-time job following graduation in May of 2019.</h2>
-			<figure>
-				<img src = "images/self_pic.jpg" alt="Picture of Dan" id="self-pic">
-			</figure>
-		</div>
-
-		<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+			<header>
+				<h1>Daniel J. Cancelmo</h1>
+				<div class="subtitle">Computer Science major · History minor</div>
+				<div class="personal_statement">I am pursuing a software development career post-graduation in May of 2019. I have a particular interest in Android mobile app development.</div>
+			</header>
+			<article>
+				<figure>
+					<img src="images/self_pic.jpg" alt="Headshot of Daniel Cancelmo">
+				</figure>
+				<h2>How I came to study Computer Science</h2>
+				<p>When I first started looking at schools I wanted to be a Genetic Engineer. When my Senior year came and I started applying to universities I applied as a Philosophy Major planning on doing pre-law and a possible History double-major with an end goal of being a judge. During the Summer between the end of high school and the beginning of college, I decided I wanted to study Astrophysics. I was a Physics and Astronomy major for my first semester. I realized it was not for me and decided to give Computer Science a try. I fell in love with programing and remained in the major. I did keep my interest in History and have completed the requirements for my History minor. My favorite Computer Science course that I have taken is Mobile App Development (Android). It instilled a great interest in mobile computing in me. Bringing applications into one's daily life by making it more accessible via handheld devices is vitally important to me.</p>
+			</article>
+		</div> <!-- #container -->
 	</body>
 </html>

@@ -1,0 +1,77 @@
+/*https://www.viget.com/articles/color-contrast/*/
+body {
+	background-color: #093145;
+	color: #373d3f;
+	font-size: 1.1em;
+	font-family: Merriweather, serif;
+}
+
+header {
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+h1 {
+	margin: 15px 0 5px 0;
+}
+
+#container {
+	margin: 0 auto;
+	width: 85%;
+	background-color: #f2f3f4;
+	border-radius: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.subtitle {
+	font-size: 1.5em;
+}
+
+.personal_statement {
+	font-size: 1.2em;
+}
+
+figure {
+	float: right;
+	margin-top: 0;
+	margin-left: 10px;
+	margin-right: 0;
+	background-color: #C0C0C0;
+	padding: 10px;
+	text-align: center;
+}
+
+.transparent {
+	background-color: transparent; 
+}
+
+.no_style_list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.no_style_list > li {
+	padding: 10px;
+}
+
+article {
+	padding: 10px;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+a {
+	color: #f58b4c;
+}
+
+p > a:hover {
+	color: #c2571a;
+}
+
+p > a:visited {
+	color: #912617;
+}

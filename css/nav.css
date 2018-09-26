@@ -1,0 +1,39 @@
+nav {
+	padding-bottom: 0.75em;
+	border-bottom: 3px double grey;
+}
+
+nav > ul {
+	margin: 0;
+	padding-left: 10%; 
+	padding-right: 10%;
+	list-style-type: none;
+	justify-content: space-between;
+	display: flex;
+}
+
+nav > ul > li {
+	border: 1px solid grey;
+	background-color: #3c6478;
+	display: inline-block;
+	border-radius: 5px;
+}
+
+#is-current {
+	background-color: #829356;
+}
+
+nav > ul > li > a {
+	display: block;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+	color: ivory;
+	background-color: #43abc9;
+	border-radius: 5px; 
+}
