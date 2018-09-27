@@ -25,6 +25,11 @@ h1 {
 	padding-left: 10px;
 }
 
+.thirds {
+	justify-content: space-between;
+	display: flex;
+}
+
 .subtitle {
 	font-size: 1.5em;
 }
