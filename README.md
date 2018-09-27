@@ -4,3 +4,4 @@ Work in progress personal site built using HTML and CSS to teach myself the fund
 
 ## TODO:
 * Descriptions of how each skill has been used
+* Responsive design (mobile and small screens)
