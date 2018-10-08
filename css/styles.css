@@ -73,10 +73,10 @@ a {
 	color: #f58b4c;
 }
 
-a:hover {
-	color: #c2571a;
-}
-
 p > a:visited, .no_style_list > li > a:visited {
 	color: #912617;
+}
+
+a:hover {
+	color: #c2571a;
 }
