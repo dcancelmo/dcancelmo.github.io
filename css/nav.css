@@ -1,3 +1,9 @@
+/*
+	Author: Daniel Cancelmo
+	Color scheme: https://www.viget.com/articles/color-contrast/
+*/
+
+/*_______________ BASE _______________*/
 nav {
 	padding-bottom: 0.75em;
 	border-bottom: 3px double grey;
@@ -19,10 +25,6 @@ nav > ul > li {
 	border-radius: 5px;
 }
 
-#is-current {
-	background-color: #829356;
-}
-
 nav > ul > li > a {
 	display: block;
 	padding: 5px;
@@ -32,6 +34,14 @@ nav > ul > li > a {
 	text-decoration: none;
 }
 
+
+/*_______________ LAYOUT _______________*/
+#is-current {
+	background-color: #829356;
+}
+
+
+/*_______________ BEHAVIOR _______________*/
 nav > ul > li > a:hover {
 	color: ivory;
 	background-color: #43abc9;

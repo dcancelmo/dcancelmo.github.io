@@ -1,4 +1,9 @@
-/*https://www.viget.com/articles/color-contrast/*/
+/*
+	Author: Daniel Cancelmo
+	Color scheme: https://www.viget.com/articles/color-contrast/
+*/
+
+/*_______________ BASE _______________*/
 body {
 	background-color: #093145;
 	color: #373d3f;
@@ -16,6 +21,30 @@ h1 {
 	margin: 15px 0 5px 0;
 }
 
+figure {
+	float: right;
+	margin-top: 0;
+	margin-left: 10px;
+	margin-right: 0;
+	background-color: #C0C0C0;
+	padding: 10px;
+	text-align: center;
+}
+
+article {
+	padding: 10px;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+a {
+	color: #f58b4c;
+}
+
+
+/*_______________ LAYOUT _______________*/
 #container {
 	margin: 0 auto;
 	width: 85%;
@@ -25,6 +54,8 @@ h1 {
 	padding-left: 10px;
 }
 
+
+/*_______________ MODULE _______________*/
 .thirds {
 	justify-content: space-between;
 	display: flex;
@@ -36,16 +67,6 @@ h1 {
 
 .personal_statement {
 	font-size: 1.2em;
-}
-
-figure {
-	float: right;
-	margin-top: 0;
-	margin-left: 10px;
-	margin-right: 0;
-	background-color: #C0C0C0;
-	padding: 10px;
-	text-align: center;
 }
 
 .transparent {
@@ -61,18 +82,8 @@ figure {
 	padding: 10px;
 }
 
-article {
-	padding: 10px;
-}
 
-p {
-	line-height: 1.4em;
-}
-
-a {
-	color: #f58b4c;
-}
-
+/*_______________ BEHAVIOR _______________*/
 p > a:visited, .no_style_list > li > a:visited {
 	color: #912617;
 }
