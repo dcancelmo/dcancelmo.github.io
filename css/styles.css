@@ -4,6 +4,10 @@
 */
 
 /*_______________ BASE _______________*/
+html {
+    overflow-y:scroll; /*Always present scrollbar, thus content does not shift*/
+}
+
 body {
 	background-color: #093145;
 	color: #373d3f;
